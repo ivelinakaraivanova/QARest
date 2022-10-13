@@ -40,11 +40,13 @@ INSTALLED_APPS = [
 
     'rest_framework',
     'rest_framework.authtoken',
-    'rest_auth',
+    # 'rest_auth',
+    'dj_rest_auth',
     'django.contrib.sites',
     'allauth',
     'allauth.account',
-    'rest_auth.registration',
+    # 'rest_auth.registration',
+    'dj_rest_auth.registration',
     'rest_framework_simplejwt',
 
     'q_and_a'
